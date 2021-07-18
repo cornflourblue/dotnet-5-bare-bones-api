@@ -4,4 +4,4 @@
 
 A minimal starter project for building a new .NET API
 
-Complete documentation coming soon!
+Complete documentation available at https://jasonwatmore.com/post/2021/07/18/net-5-bare-bones-api-tutorial

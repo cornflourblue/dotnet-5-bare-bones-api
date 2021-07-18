@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace WebApi
@@ -13,7 +12,7 @@ namespace WebApi
         }
 
         // configure the HTTP request pipeline
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app)
         {
             app.UseRouting();
             app.UseEndpoints(x => x.MapControllers());
